@@ -1,0 +1,63 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, },
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 432,
+					offset = 1944,
+				},
+				position = {
+					count = 432,
+					offset = 2808,
+				},
+				tangent = {
+					count = 432,
+					offset = 3240,
+				},
+				uv0 = {
+					count = 432,
+					offset = 2376,
+				},
+				uv1 = {
+					count = 432,
+					offset = 1512,
+				},
+			},
+			materials = {
+				"vehicle/waggon/ICE4/glas_hell.mtl",
+			},
+		},
+	},
+	vertexAttr = {
+		normal = {
+			count = 48,
+			numComp = 3,
+			offset = 8,
+		},
+		position = {
+			count = 864,
+			numComp = 3,
+			offset = 440,
+		},
+		tangent = {
+			count = 208,
+			numComp = 4,
+			offset = 1304,
+		},
+		uv0 = {
+			count = 384,
+			numComp = 2,
+			offset = 56,
+		},
+		uv1 = {
+			count = 8,
+			numComp = 2,
+			offset = 0,
+		},
+	},
+}
+end

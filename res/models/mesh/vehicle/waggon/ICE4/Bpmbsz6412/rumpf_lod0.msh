@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 76836,
+					offset = 181328,
+				},
+				position = {
+					count = 76836,
+					offset = 335000,
+				},
+				tangent = {
+					count = 76836,
+					offset = 411836,
+				},
+				uv0 = {
+					count = 76836,
+					offset = 258164,
+				},
+			},
+			materials = {
+				"vehicle/waggon/ICE4/rumpf_Bpmbsz6412.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 34776,
+			numComp = 3,
+			offset = 0,
+		},
+		position = {
+			count = 41064,
+			numComp = 3,
+			offset = 66872,
+		},
+		tangent = {
+			count = 73392,
+			numComp = 4,
+			offset = 107936,
+		},
+		uv0 = {
+			count = 32096,
+			numComp = 2,
+			offset = 34776,
+		},
+	},
+}
+end

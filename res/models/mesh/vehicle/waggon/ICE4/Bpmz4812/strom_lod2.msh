@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 86544,
+					offset = 381640,
+				},
+				position = {
+					count = 86544,
+					offset = 554728,
+				},
+				tangent = {
+					count = 86544,
+					offset = 641272,
+				},
+				uv0 = {
+					count = 86544,
+					offset = 468184,
+				},
+			},
+			materials = {
+				"vehicle/waggon/ICE4/strom.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 41112,
+			numComp = 3,
+			offset = 0,
+		},
+		position = {
+			count = 98088,
+			numComp = 3,
+			offset = 103648,
+		},
+		tangent = {
+			count = 179904,
+			numComp = 4,
+			offset = 201736,
+		},
+		uv0 = {
+			count = 62536,
+			numComp = 2,
+			offset = 41112,
+		},
+	},
+}
+end

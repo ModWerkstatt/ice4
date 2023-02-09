@@ -1,0 +1,499 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 14.752820014954, 1.4588400125504, 4.2658200263977, },
+		bbMin = { -14.242190361023, -1.4588400125504, -0.054850000888109, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 14.497505187988, 1.4588400125504, 2.1603350639343, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.25531482696533, 0, 2.1054849624634, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/Apmzf0812/rumpf_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/tritt1l_lod0.msh",
+						name = "tritt1l",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/tritt1r_lod0.msh",
+						name = "tritt1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/tritt2l_lod0.msh",
+						name = "tritt2l",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/tritt2r_lod0.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", "vehicle/waggon/ICE4/display.mtl", },
+						mesh = "vehicle/train/ICE4/tuer1l_lod0.msh",
+						name = "tuer1l",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", "vehicle/waggon/ICE4/display.mtl", },
+						mesh = "vehicle/train/ICE4/tuer1r_lod0.msh",
+						name = "tuer1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", "vehicle/waggon/ICE4/display.mtl", },
+						mesh = "vehicle/train/ICE4/tuer2l_lod0.msh",
+						name = "tuer2l",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", "vehicle/waggon/ICE4/display.mtl", },
+						mesh = "vehicle/train/ICE4/tuer2r_lod0.msh",
+						name = "tuer2r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/bogie_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0.38780999183655, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995327, 0, 0.35499000549316, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1184099912643, 0, 0.35499000549316, 1, },
+							},
+						},
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.7368402481079, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/bogie_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0.38780999183655, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995327, 0, 0.35499000549316, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1184099912643, 0, 0.35499000549316, 1, },
+							},
+						},
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.7368402481079, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/kopf_glas_dunkel.mtl", },
+						mesh = "vehicle/train/ICE4/fenster_black_lod0.msh",
+						name = "fenster_black",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/fenster_clear_lod0.msh",
+						name = "fenster_clear",
+						transf = { 1.1281900405884, 0, 0, 0, 0, 1.0027099847794, 0, 0, 0, 0, 1.1281900405884, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/kopf_innen.mtl", },
+						mesh = "vehicle/train/ICE4/Apmzf0812/innen_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/nase_lod0.msh",
+						name = "nase",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/nase_lod0.msh",
+						name = "nase",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/kupplung_lod0.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384186, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/kupplung_lod0.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384186, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/Apmzf0812/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/tuer1l_lod1.msh",
+						name = "tuer1l",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/tuer1r_lod1.msh",
+						name = "tuer1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/tuer2l_lod1.msh",
+						name = "tuer2l",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/tuer2r_lod1.msh",
+						name = "tuer2r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/bogie_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0.38780999183655, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995327, 0, 0.35499000549316, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1184099912643, 0, 0.35499000549316, 1, },
+							},
+						},
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.7368402481079, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/bogie_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0.38780999183655, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995327, 0, 0.35499000549316, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1184099912643, 0, 0.35499000549316, 1, },
+							},
+						},
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.7368402481079, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/kopf_glas_dunkel.mtl", },
+						mesh = "vehicle/train/ICE4/fenster_black_lod1.msh",
+						name = "fenster_black",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/fenster_clear_lod1.msh",
+						name = "fenster_clear",
+						transf = { 1.1281900405884, 0, 0, 0, 0, 1.0027099847794, 0, 0, 0, 0, 1.1281900405884, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/kopf_innen.mtl", },
+						mesh = "vehicle/train/ICE4/Apmzf0812/innen_lod1.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/nase_lod1.msh",
+						name = "nase",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/nase_lod1.msh",
+						name = "nase",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/kupplung_lod1.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384186, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/kupplung_lod1.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384186, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/Apmzf0812/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/tuer1l_lod2.msh",
+						name = "tuer1l",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/tuer1r_lod2.msh",
+						name = "tuer1r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/tuer2l_lod2.msh",
+						name = "tuer2l",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", "vehicle/train/ICE4/kopf_glas_dunkel.mtl", "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/tuer2r_lod2.msh",
+						name = "tuer2r",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/bogie_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0.38780999183655, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995327, 0, 0.35499000549316, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1184099912643, 0, 0.35499000549316, 1, },
+							},
+						},
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.7368402481079, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/bogie_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0, 0.38780999183655, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995327, 0, 0.35499000549316, 1, },
+							},
+							{
+								materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+								mesh = "vehicle/train/ICE4/rad_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1184099912643, 0, 0.35499000549316, 1, },
+							},
+						},
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.7368402481079, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/kopf_glas_dunkel.mtl", },
+						mesh = "vehicle/train/ICE4/fenster_black_lod2.msh",
+						name = "fenster_black",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/kopf_glas_hell.mtl", },
+						mesh = "vehicle/train/ICE4/fenster_clear_lod2.msh",
+						name = "fenster_clear",
+						transf = { 1.1281900405884, 0, 0, 0, 0, 1.0027099847794, 0, 0, 0, 0, 1.1281900405884, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/kopf_innen.mtl", },
+						mesh = "vehicle/train/ICE4/Apmzf0812/innen_lod2.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/nase_lod2.msh",
+						name = "nase",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/nase_lod2.msh",
+						name = "nase",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/kupplung_lod2.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384186, 1, },
+					},
+					{
+						materials = { "vehicle/train/ICE4/Apmzf0812_rumpf_klima.mtl", },
+						mesh = "vehicle/train/ICE4/kupplung_lod2.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384186, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 2200,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2019,
+			yearTo = 0,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("ICE4_Apmzf0812_name"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 36525,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			blinkInterval = 500,
+			configs = {
+				{
+					axles = { "vehicle/train/ICE4/rad_lod0.msh", },
+					backBackwardParts = { 22, },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { 21, },
+					innerBackwardParts = { 24, },
+					innerForwardParts = { 23, },
+				},
+				{
+					axles = { "vehicle/train/ICE4/rad_lod1.msh", },
+					backBackwardParts = { 18, },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { 17, },
+					innerBackwardParts = { 20, },
+					innerForwardParts = { 19, },
+				},
+				{
+					axles = { "vehicle/train/ICE4/rad_lod2.msh", },
+					backBackwardParts = { 18, },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { 17, },
+					innerBackwardParts = { 20, },
+					innerForwardParts = { 19, },
+				},
+			},
+			engines = { },
+			soundSet = {
+				horn = "",
+				name = "ICE_412_wagen",
+			},
+			topSpeed = 69.444442749023,
+			weight = 58,
+		},
+		seatProvider = {
+			crewModels = {"characters/era_c_driver_rail.mdl" },
+		    drivingLicense = "RAIL",
+			seats = {
+				
+			},
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 52,
+									seats = { },
+									type = "PASSENGERS",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			groupFileName = "",
+			loadSpeed = 2,
+			multipleUnitOnly = true,
+			reversible = true,
+		},
+	},
+	version = 1,
+}
+end

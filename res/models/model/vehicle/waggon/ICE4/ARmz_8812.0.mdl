@@ -1,0 +1,583 @@
+﻿function data()
+return {
+	boundingInfo = {
+		bbMax = { 14.27136, 1.45646, 4.26582, },
+		bbMin = { -14.27136, -1.45646, -0.05485, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+            node = {
+			    children = {
+				    {
+					    materials = { "vehicle/waggon/ICE4/rumpf_ARmz8812.mtl", },
+                        mesh = "vehicle/waggon/ICE4/ARmz8812/rumpf_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICE4/strom.mtl", },
+                        mesh = "vehicle/waggon/ICE4/ARmz8812/strom_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+                    {
+					    children = {
+		                    {
+                                materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+			                    mesh = "vehicle/waggon/ICE4/bogie_lod0.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		                    },
+                            {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod0.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33892, 0, 0, 1, },
+		                    },
+                            {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod0.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21105, 0, 0, 1, },
+		                    },
+	                    },
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.7521, 0, 0.355, 1, },
+				    },
+				    {
+					    children = {
+		                    {
+                                materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+			                    mesh = "vehicle/waggon/ICE4/bogie_lod0.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		                    }, {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod0.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33892, 0, 0, 1, },
+		                    },
+                            {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod0.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21105, 0, 0, 1, },
+		                    },
+	                    },
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.7521, 0, 0.355, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICE4/glas_dunkel.mtl", },
+                        mesh = "vehicle/waggon/ICE4/ARmz8812/fenster_black_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICE4/glas_hell.mtl", },
+                        mesh = "vehicle/waggon/ICE4/ARmz8812/fenster_clear_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICE4/innen_ARmz8812.mtl", "vehicle/waggon/ICE4/glas_hell.mtl", },
+                        mesh = "vehicle/waggon/ICE4/ARmz8812/innen_bistro_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+		        },
+		        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		        },
+			    static = false,
+			    visibleFrom = 0,
+			    visibleTo = 250,
+		    },
+            -- lod1
+            {
+                node = {
+			        children = {
+				        {
+					        materials = { "vehicle/waggon/ICE4/rumpf_ARmz8812.mtl", },
+                            mesh = "vehicle/waggon/ICE4/ARmz8812/rumpf_lod1.msh",
+					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				        },
+                    {
+					    children = {
+		                    {
+                                materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+			                    mesh = "vehicle/waggon/ICE4/bogie_lod1.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46306, 1, },
+		                    },
+                            {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod1.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33892, 0, 0.45244, 1, },
+		                    },
+                            {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod1.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21105, 0, 0.45244, 1, },
+		                    },
+	                    },
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.7521, 0, 0, 1, },
+				    },
+				    {
+					    children = {
+		                    {
+                                materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+			                    mesh = "vehicle/waggon/ICE4/bogie_lod1.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46306, 1, },
+		                    }, {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod1.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33892, 0, 0.45244, 1, },
+		                    },
+                            {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod1.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21105, 0, 0.45244, 1, },
+		                    },
+	                    },
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.7521, 0, 0, 1, },
+				    },
+				        {
+					        materials = { "vehicle/waggon/ICE4/glas_dunkel.mtl", },
+                            mesh = "vehicle/waggon/ICE4/ARmz8812/fenster_black_lod0.msh",
+					        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				        },
+				        {
+					    materials = { "vehicle/waggon/ICE4/glas_hell.mtl", },
+                        mesh = "vehicle/waggon/ICE4/ARmz8812/fenster_clear_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+		        },
+		        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		    },
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 500,
+		},
+        -- lod2
+        {
+            node = {
+			    children = {
+				    {
+					    materials = { "vehicle/waggon/ICE4/rumpf_ARmz8812.mtl", },
+                        mesh = "vehicle/waggon/ICE4/ARmz8812/rumpf_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+                    {
+					    children = {
+		                    {
+                                materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+			                    mesh = "vehicle/waggon/ICE4/bogie_lod2.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46306, 1, },
+		                    },
+                            {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod2.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33892, 0, 0.45244, 1, },
+		                    },
+                            {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod2.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21105, 0, 0.45244, 1, },
+		                    },
+	                    },
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.7521, 0, 0, 1, },
+				    },
+				    {
+					    children = {
+		                    {
+                                materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+			                    mesh = "vehicle/waggon/ICE4/bogie_lod2.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.46306, 1, },
+		                    }, {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod2.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33892, 0, 0.45244, 1, },
+		                    },
+                            {
+			                    materials = { "vehicle/train/ICE4/kopf_drehgestell.mtl", },
+                                mesh = "vehicle/train/ICE4/rad_lod2.msh",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21105, 0, 0.45244, 1, },
+		                    },
+	                    },
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.7521, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICE4/glas_dunkel.mtl", },
+                        mesh = "vehicle/waggon/ICE4/ARmz8812/fenster_black_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    materials = { "vehicle/waggon/ICE4/glas_hell.mtl", },
+                        mesh = "vehicle/waggon/ICE4/ARmz8812/fenster_clear_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+		        },
+		        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		    },
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 2200,
+		},
+	},
+	metadata = {
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		availability = {
+			yearFrom = 2017,
+			yearTo = 0,
+		},
+        description = {
+            name = _("ICE4_ARmz8812_name"),
+        },
+		cost = {
+			price = -1,
+		},
+		maintenance = {
+			lifespan = 36525,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+                {
+                    axles = { "vehicle/train/ICE4/rad_lod0.msh", },
+                },
+                {
+                    axles = { "vehicle/train/ICE4/rad_lod1.msh", },
+                },
+                {
+                    axles = { "vehicle/train/ICE4/rad_lod2.msh", },
+                },
+			},
+            engines = { },
+			soundSet = { name = "ICE_412_wagen" },
+			topSpeed = 73.611111111,
+			weight = 53.5,
+		},
+        seatProvider = {
+			crewModels = {"characters/era_c_driver_rail.mdl" },
+		    drivingLicense = "RAIL",
+			seats = {
+                -- restaurant
+                {
+					animation = "idle",
+					crew = true,
+					group = 1,
+                    transf = { -0.500, -0.866, 0, 0, 0.866, -0.500, 0, 0, 0, 0, 1, 0, -9.1, 0.6, 1.2, 1, },
+                },
+                {
+					animation = "idle",
+					crew = false,
+					group = 1,
+					transf = { 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, -13.1, -0.7, 1.2, 1, },
+                },
+                {
+					animation = "idle",
+					crew = false,
+					group = 1,
+                    transf = { -0.500, -0.866, 0, 0, 0.866, -0.500, 0, 0, 0, 0, 1, 0, -12.5, -0.8, 1.2, 1, },
+                },
+                {
+					animation = "idle",
+					crew = false,
+					group = 1,
+                    transf = { 0.819, -0.574, 0, 0, 0.574, 0.819, 0, 0, 0, 0, 1, 0, -11.8, -0.8, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.3, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.7, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.6, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.3, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.5, -1.0, 1.2, 1, },
+                },
+
+                {
+					animation = "idle",
+					crew = false,
+					group = 1,
+                    transf = { 0.342, 0.940, 0, 0, -0.940, 0.342, 0, 0, 0, 0, 1, 0, -13.1, 0.6, 1.2, 1, },
+                },
+                {
+					animation = "idle",
+					crew = false,
+					group = 1,
+                    transf = { 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, -12.5, 0.6, 1.2, 1, },
+                },
+                {
+					animation = "idle",
+					crew = false,
+					group = 1,
+                    transf = {0.819, -0.574, 0, 0, 0.574, 0.819, 0, 0, 0, 0, 1, 0, -11.0, 0.7, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.2, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.1, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.1, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.4, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.4, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.7, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.7, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.6, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.6, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.3, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.3, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.4, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.4, 0.5, 1.2, 1, },
+                },
+
+                -- 1st class
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.25, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.25, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.3, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.3, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.5, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.5, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.5, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.5, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.4, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.4, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.3, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.3, 0.5, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 11.3, 1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 11.3, 0.5, 1.2, 1, },
+                },
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.3, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.4, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.5, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.4, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.3, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.4, -1.0, 1.2, 1, },
+                },
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 11.3, -1.0, 1.2, 1, },
+                },
+            },
+        },
+		transportVehicle = {
+			carrier = "RAIL",
+            compartments = {
+				{
+                    {
+    					{ capacity = 32, type = "PASSENGERS", },
+                    },
+				},
+			},
+			loadSpeed = 0,
+			multipleUnitOnly = true,
+            reversible = true,
+		},
+	},
+	version = 1,
+}
+end

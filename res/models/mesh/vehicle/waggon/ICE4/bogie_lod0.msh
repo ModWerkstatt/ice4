@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, },
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 29712,
+					offset = 102268,
+				},
+				position = {
+					count = 29712,
+					offset = 72556,
+				},
+				tangent = {
+					count = 29712,
+					offset = 161692,
+				},
+				uv0 = {
+					count = 29712,
+					offset = 131980,
+				},
+			},
+			materials = {
+				"vehicle/train/ICE4/kopf_drehgestell.mtl",
+			},
+		},
+	},
+	vertexAttr = {
+		normal = {
+			count = 9228,
+			numComp = 3,
+			offset = 18504,
+		},
+		position = {
+			count = 18504,
+			numComp = 3,
+			offset = 0,
+		},
+		tangent = {
+			count = 30512,
+			numComp = 4,
+			offset = 42044,
+		},
+		uv0 = {
+			count = 14312,
+			numComp = 2,
+			offset = 27732,
+		},
+	},
+}
+end

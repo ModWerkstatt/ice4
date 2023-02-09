@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, },
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 141276,
+					offset = 812064,
+				},
+				position = {
+					count = 141276,
+					offset = 388236,
+				},
+				tangent = {
+					count = 141276,
+					offset = 670788,
+				},
+				uv0 = {
+					count = 141276,
+					offset = 529512,
+				},
+			},
+			materials = {
+				"vehicle/train/ICE4/kopf2_rumpf.mtl",
+			},
+		},
+	},
+	vertexAttr = {
+		normal = {
+			count = 76140,
+			numComp = 3,
+			offset = 312096,
+		},
+		position = {
+			count = 75720,
+			numComp = 3,
+			offset = 0,
+		},
+		tangent = {
+			count = 149088,
+			numComp = 4,
+			offset = 163008,
+		},
+		uv0 = {
+			count = 87288,
+			numComp = 2,
+			offset = 75720,
+		},
+	},
+}
+end
