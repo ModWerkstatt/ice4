@@ -1,4 +1,4 @@
-local soundsetutil = require "::/scripts/soundsetutil"
+local soundsetutil = require "::/scripts/soundsetutil.lua"
 
 function data()
 
@@ -11,10 +11,10 @@ soundsetutil.addTrackParam01
 			{ 0.10, 0.5 },
 			{ 0.15, 0.0 },
 			{ 1.00 , 0.0 } },
-		
+
 		{
 			{ 0.0, 1.0 },
-			{ 1.0, 1.0 } }, 
+			{ 1.0, 1.0 } },
 		{"vehicle","speed01"})
 
 soundsetutil.addTrackParam01
@@ -24,12 +24,12 @@ soundsetutil.addTrackParam01
 			{ 0.2, 1.0 },
 			{ 0.85, 0.2 },
 			{ 1.0, 0.1 }	},
-		
+
 		{
 			{ .0, 0.5 },
 			{ 1.0, 1.0 } },
 		{"vehicle","speed01"})
-		
+
 
 soundsetutil.addTrackParam01
 (data, "br412/schnell.wav", 25.0,
@@ -39,9 +39,9 @@ soundsetutil.addTrackParam01
 			{ 1.0, 1.0 } },
 		{
 			{ 0.0, 1.0 },
-			{ 1.0, 1.0 } }, 
+			{ 1.0, 1.0 } },
 		{"vehicle","speed01"})
-				
+
 soundsetutil.addTrackParam01
 (data, "br412/rollen.wav", 25.0,
 		{
@@ -50,7 +50,7 @@ soundsetutil.addTrackParam01
 			{ 1.0, 0.2 } },
 		{
 			{ 0.0, 1.0 },
-			{ 1.0, 1.0 } }, 
+			{ 1.0, 1.0 } },
 		{"vehicle","speed01"})
 
 soundsetutil.addTrackSqueal(data, "br412/kurve.wav", 25.0)
