@@ -23,7 +23,7 @@ return {
 						},
 						{ 
 							materials = { "mat/shared/strom.mtl", },
-							mesh = "msh/shared/strom_lod0.msh",
+							mesh = "msh/bpmz4812/strom_lod0.msh",
 							name = "strom_lod0_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -433,7 +433,7 @@ return {
 						},
 						{ 
 							materials = { "mat/shared/strom.mtl", },
-							mesh = "msh/shared/strom_lod1.msh",
+							mesh = "msh/bpmz4812/strom_lod1.msh",
 							name = "strom_lod1_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -707,7 +707,7 @@ return {
 						},
 						{ 
 							materials = { "mat/shared/strom.mtl", },
-							mesh = "msh/shared/strom_lod2.msh",
+							mesh = "msh/bpmz4812/strom_lod2.msh",
 							name = "strom_lod2_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
