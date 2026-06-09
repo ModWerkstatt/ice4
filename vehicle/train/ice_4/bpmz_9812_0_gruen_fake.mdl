@@ -1,0 +1,446 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 14.2514896392822265625, 2.3275699615478515625, 4.265820026397705078125, },
+			bbMin = { -14.2514896392822265625, -2.3275699615478515625, -0.0548500008881092071533203125, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 14.2514896392822265625, 2.3275699615478515625, 2.160335063934326171875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.10548496246337890625, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", },
+							mesh = "msh/bpmz9812/rumpf_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", },
+							mesh = "msh/shared/tritt1l_lod0.msh",
+							name = "tritt1l_lod0_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", },
+							mesh = "msh/shared/tritt1r_lod0.msh",
+							name = "tritt1r_lod0_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", },
+							mesh = "msh/shared/tritt2l_lod0.msh",
+							name = "tritt2l_lod0_4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", },
+							mesh = "msh/shared/tritt2r_lod0.msh",
+							name = "tritt2r_lod0_5",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", "mat/shared/display.mtl", },
+							mesh = "msh/shared/tuer1l_lod0.msh",
+							name = "tuer1l_lod0_6",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", "mat/shared/display.mtl", },
+							mesh = "msh/shared/tuer1r_lod0.msh",
+							name = "tuer1r_lod0_7",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", "mat/shared/display.mtl", },
+							mesh = "msh/shared/tuer2l_lod0.msh",
+							name = "tuer2l_lod0_8",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", "mat/shared/display.mtl", },
+							mesh = "msh/shared/tuer2r_lod0.msh",
+							name = "tuer2r_lod0_9",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod0.msh",
+									name = "bogie_lod0_11",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33891999721527099609375, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2110500335693359375, 0, 0, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.7520999908447265625, 0, 0.3549999892711639404296875, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod0.msh",
+									name = "bogie_lod0_15",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33891999721527099609375, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2110500335693359375, 0, 0, 1, },
+								},
+							},
+							name = "bogie2_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.7520999908447265625, 0, 0.3549999892711639404296875, 1, },
+						},
+						{ 
+							materials = { "mat/shared/glas_dunkel.mtl", },
+							mesh = "msh/apmz1812/fenster_black_lod0.msh",
+							name = "fenster_black_lod0_18",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/fenster_clear_kl2_lod0.msh",
+							name = "fenster_clear_kl2_lod0_19",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/innen_kl2.mtl", },
+							mesh = "msh/shared/innen_kl2_lod0.msh",
+							name = "innen_kl2_lod0_20",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 250,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", },
+							mesh = "msh/bpmz9812/rumpf_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/tuer1l_lod1.msh",
+							name = "tuer1l_lod1_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/tuer1r_lod1.msh",
+							name = "tuer1r_lod1_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/tuer2l_lod1.msh",
+							name = "tuer2l_lod1_4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/tuer2r_lod1.msh",
+							name = "tuer2r_lod1_5",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod1.msh",
+									name = "bogie_lod1_7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4630599915981292724609375, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33891999721527099609375, 0, 0.4524399936199188232421875, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2110500335693359375, 0, 0.4524399936199188232421875, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.7520999908447265625, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod1.msh",
+									name = "bogie_lod1_11",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4630599915981292724609375, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33891999721527099609375, 0, 0.4524399936199188232421875, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2110500335693359375, 0, 0.4524399936199188232421875, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.7520999908447265625, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/glas_dunkel.mtl", },
+							mesh = "msh/apmz1812/fenster_black_lod0.msh",
+							name = "fenster_black_lod0_14",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/fenster_clear_kl2_lod0.msh",
+							name = "fenster_clear_kl2_lod0_15",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/innen_kl2.mtl", },
+							mesh = "msh/shared/innen_kl2_lod1.msh",
+							name = "innen_kl2_lod1_16",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 250,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", },
+							mesh = "msh/bpmz9812/rumpf_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/tuer1l_lod2.msh",
+							name = "tuer1l_lod2_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/tuer1r_lod2.msh",
+							name = "tuer1r_lod2_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/tuer2l_lod2.msh",
+							name = "tuer2l_lod2_4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmz9812/rumpf_bpmz9812_gruen.mtl", "mat/shared/glas_dunkel.mtl", "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/tuer2r_lod2.msh",
+							name = "tuer2r_lod2_5",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod2.msh",
+									name = "bogie_lod2_7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4630599915981292724609375, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "rad_lod2_8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33891999721527099609375, 0, 0.4524399936199188232421875, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2110500335693359375, 0, 0.4524399936199188232421875, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.7520999908447265625, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod2.msh",
+									name = "bogie_lod2_11",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.4630599915981292724609375, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.33891999721527099609375, 0, 0.4524399936199188232421875, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2110500335693359375, 0, 0.4524399936199188232421875, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.7520999908447265625, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/glas_dunkel.mtl", },
+							mesh = "msh/apmz1812/fenster_black_lod0.msh",
+							name = "fenster_black_lod0_14",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/glas_hell.mtl", },
+							mesh = "msh/shared/fenster_clear_kl2_lod0.msh",
+							name = "fenster_clear_kl2_lod0_15",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/innen_kl2.mtl", },
+							mesh = "msh/shared/innen_kl2_lod2.msh",
+							name = "innen_kl2_lod2_16",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 2200,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2017,
+				yearTo = 0,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				name = _("ICE4_Bpmz9812_gruen_name"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 73.611114501953125,
+				weightEmpty = 53500,
+				weightMaxPayload = 0,
+			},
+			maintenance = { 
+				lifespan = 36525,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", "a3", "a4", },
+					fakeBogies = { },
+				},
+			},
+			seatProvider = { 
+				crewModels = { },
+				drivingLicense = "RAIL",
+				seats = { },
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "/ICE_412_wagen",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 88,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/passengers/passengers.cargo", },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				loadSpeed = 2,
+				multipleUnitOnly = true,
+				reversible = true,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

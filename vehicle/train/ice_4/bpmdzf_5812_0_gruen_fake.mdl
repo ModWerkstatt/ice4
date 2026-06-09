@@ -1,0 +1,710 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 14.75282001495361328125, 1.45884001255035400390625, 4.265820026397705078125, },
+			bbMin = { -14.24219036102294921875, -1.45884001255035400390625, -0.0548500008881092071533203125, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 14.49750518798828125, 1.45884001255035400390625, 2.160335063934326171875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.25531482696533203125, 0, 2.10548496246337890625, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/bpmdzf5812/rumpf_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/tritt1l_kopf_lod0.msh",
+							name = "tritt1l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/tritt1r_kopf_lod0.msh",
+							name = "tritt1r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/tritt2l_lod0.msh",
+							name = "tritt2l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/tritt2r_lod0.msh",
+							name = "tritt2r_lod0_5",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", "mat/shared/display.mtl", },
+							mesh = "msh/shared/tuer1l_kopf_lod0.msh",
+							name = "tuer1l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", "mat/shared/display.mtl", },
+							mesh = "msh/shared/tuer1r_kopf_lod0.msh",
+							name = "tuer1r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", "mat/shared/display.mtl", },
+							mesh = "msh/shared/tuer2l_lod0.msh",
+							name = "tuer2l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", "mat/shared/display.mtl", },
+							mesh = "msh/shared/tuer2r_lod0.msh",
+							name = "tuer2r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod0.msh",
+									name = "bogie_lod0_11",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3878099918365478515625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995326995849609375, 0, 0.3549900054931640625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.11840999126434326171875, 0, 0.3549900054931640625, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.73684024810791015625, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod0.msh",
+									name = "bogie_lod0_15",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3878099918365478515625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995326995849609375, 0, 0.3549900054931640625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.11840999126434326171875, 0, 0.3549900054931640625, 1, },
+								},
+							},
+							name = "bogie2_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.73684024810791015625, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/kopf_glas_dunkel.mtl", },
+							mesh = "msh/shared/fenster_black_lod0.msh",
+							name = "fenster_black",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/fenster_clear_lod0.msh",
+							name = "fenster_clear",
+							transf = { 1.12819004058837890625, 0, 0, 0, 0, 1.00270998477935791015625, 0, 0, 0, 0, 1.12819004058837890625, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/kopf2_innen.mtl", },
+							mesh = "msh/bpmdzf5812/innen_lod0.msh",
+							name = "interior",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/nase_lod0.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/nase_lod0.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/kupplung_lod0.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384185791015625, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/kupplung_lod0.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384185791015625, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 250,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/bpmdzf5812/rumpf_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/tuer1l_kopf_lod1.msh",
+							name = "tuer1l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/tuer1r_kopf_lod1.msh",
+							name = "tuer1r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/tuer2l_lod1.msh",
+							name = "tuer2l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/tuer2r_lod1.msh",
+							name = "tuer2r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod1.msh",
+									name = "bogie_lod1_7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3878099918365478515625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995326995849609375, 0, 0.3549900054931640625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.11840999126434326171875, 0, 0.3549900054931640625, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.73684024810791015625, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod1.msh",
+									name = "bogie_lod1_11",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3878099918365478515625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995326995849609375, 0, 0.3549900054931640625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.11840999126434326171875, 0, 0.3549900054931640625, 1, },
+								},
+							},
+							name = "bogie2_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.73684024810791015625, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/kopf_glas_dunkel.mtl", },
+							mesh = "msh/shared/fenster_black_lod1.msh",
+							name = "fenster_black",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/fenster_clear_lod1.msh",
+							name = "fenster_clear",
+							transf = { 1.12819004058837890625, 0, 0, 0, 0, 1.00270998477935791015625, 0, 0, 0, 0, 1.12819004058837890625, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/kopf2_innen.mtl", },
+							mesh = "msh/bpmdzf5812/innen_lod1.msh",
+							name = "interior",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/nase_lod1.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/nase_lod1.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/kupplung_lod1.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384185791015625, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/kupplung_lod1.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384185791015625, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 250,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/bpmdzf5812/rumpf_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/tuer1l_kopf_lod2.msh",
+							name = "tuer1l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/tuer1r_kopf_lod2.msh",
+							name = "tuer1r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/tuer2l_lod2.msh",
+							name = "tuer2l",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", "mat/shared/kopf_glas_dunkel.mtl", "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/tuer2r_lod2.msh",
+							name = "tuer2r",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod2.msh",
+									name = "bogie_lod2_7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3878099918365478515625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "rad_lod2_8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995326995849609375, 0, 0.3549900054931640625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.11840999126434326171875, 0, 0.3549900054931640625, 1, },
+								},
+							},
+							name = "bogie1_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.73684024810791015625, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod2.msh",
+									name = "bogie_lod2_11",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3878099918365478515625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.18649995326995849609375, 0, 0.3549900054931640625, 1, },
+								},
+								{ 
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.11840999126434326171875, 0, 0.3549900054931640625, 1, },
+								},
+							},
+							name = "bogie2_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.73684024810791015625, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/kopf_glas_dunkel.mtl", },
+							mesh = "msh/shared/fenster_black_lod2.msh",
+							name = "fenster_black",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/kopf_glas_hell.mtl", },
+							mesh = "msh/shared/fenster_clear_lod2.msh",
+							name = "fenster_clear",
+							transf = { 1.12819004058837890625, 0, 0, 0, 0, 1.00270998477935791015625, 0, 0, 0, 0, 1.12819004058837890625, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/shared/kopf2_innen.mtl", },
+							mesh = "msh/bpmdzf5812/innen_lod2.msh",
+							name = "interior",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/nase_lod2.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/nase_lod2.msh",
+							name = "nase",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/kupplung_lod2.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384185791015625, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/bpmdzf5812/bpmdzf5812_rumpf_gruen.mtl", },
+							mesh = "msh/shared/kupplung_lod2.msh",
+							name = "kupplung",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.60000002384185791015625, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 2200,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2019,
+				yearTo = 0,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				name = _("ICE4_bpmdzf5812_name"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 69.4444427490234375,
+				weightEmpty = 57000,
+				weightMaxPayload = 0,
+			},
+			maintenance = { 
+				lifespan = 36525,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", "a3", "a4", },
+					fakeBogies = { },
+				},
+			},
+			seatProvider = { 
+				crewModels = { "::/characters/era_c_driver_rail/era_c_driver_rail.mdl", },
+				drivingLicense = "RAIL",
+				seats = { },
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "sound/ice_4_wagen.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/passengers/passengers.cargo", },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				loadSpeed = 2,
+				multipleUnitOnly = true,
+				reversible = true,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

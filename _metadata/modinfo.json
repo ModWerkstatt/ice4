@@ -1,0 +1,22 @@
+{
+    "name": "ICE 4 of Deutsche Bahn",
+    "summary": "The newest generation of the ICE development.",
+    "description": "The ICE 4 is the latest development in ICE history. Slower than its predecessors, but more energy efficient and with more space and comfort. Since 2017, the new flagship of the Deutsche Bahn is on the rails. Two trains were designed with green stripes deviating from the usual design to indicate the use of green electricity at the railway. Since the summer of 2019, all power cars are covered with green stripes as Germany's fastest climate saver.\nThis mod includes also the fake variants of all models, can be optionally enabled by the ingame mod manager.",
+    "localization" : {
+        "de": {
+            "name": "ICE 4 der Deutschen Bahn",
+            "summary": "Die neueste Generation der ICE-Entwicklung.",
+            "description": "Der ICE 4 ist die neueste Entwicklung in der ICE-Geschichte. Langsamer als die Vorgänger, aber energieeffizienter und mit mehr Platz und Komfort. Seit 2017 ist das neue Flaggschiff der Deutschen Bahn auf den Schienen unterwegs. Zwei Züge wurden mit grünem Streifen abweichend zum gewohnten Design gestaltet um auf den Einsatz von Ökostrom bei der Bahn hinzuweisen. Seit Sommer 2019 werden alle Triebköpfe mit grünem Streifen beklebt als Deutschlands schnellster Klimaschützer.\nDieser Mod beinhaltet ausserdem die Fake-Variante von allen Fahrzeugen. Diese können mit dem Ingame-Mod-Manager bei Bedarf aktiviert werden."
+        }
+    },
+    "authors": [
+        {
+            "name": "Modwerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Multiple Unit"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/ice-4"
+}
