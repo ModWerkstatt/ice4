@@ -36,7 +36,6 @@ return {
 					normalTex = {
 						fileName = "/vehicle/train/ice_4/mat/apmzf0812/tex/rumpf_normal.dds",
 						redGreen = true,
-						scaleDownAllowed = false,
 						type = "TWOD",
 						wrapS = "REPEAT",
 						wrapT = "REPEAT",
