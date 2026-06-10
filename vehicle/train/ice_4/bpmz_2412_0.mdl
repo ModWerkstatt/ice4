@@ -362,7 +362,7 @@ return {
 						{ 
 							materials = { "mat/shared/innen_kl2.mtl", },
 							mesh = "msh/shared/innen_kl2_lod0.msh",
-							name = "innen_kl2_lod0_21",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -580,7 +580,7 @@ return {
 						{ 
 							materials = { "mat/shared/innen_kl2.mtl", },
 							mesh = "msh/shared/innen_kl2_lod1.msh",
-							name = "innen_kl2_lod1_16",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -798,7 +798,7 @@ return {
 						{ 
 							materials = { "mat/shared/innen_kl2.mtl", },
 							mesh = "msh/shared/innen_kl2_lod2.msh",
-							name = "innen_kl2_lod2_16",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -845,6 +845,34 @@ return {
 				topSpeed = 73.611114501953125,
 				weightEmpty = 55500,
 				weightMaxPayload = 0,
+			},
+			extent = {
+				bbMax = { 14.75282001495361328125, 1.45884001255035400390625, 4.265820026397705078125, },
+				bbMin = { -14.24219036102294921875, -1.45884001255035400390625, -0.0548500008881092071533203125, },
+			},
+			lightSourceList = {
+				lights = {
+					{
+						angleMax = 89,
+						angleMin = 9,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 600,
+						fromTime = -1,
+						invertMask = false,
+						length = 14,
+						lightId = "",
+						mask = 32,
+						meshId = "interior",
+						mode = "LIGHT",
+						radius = 3,
+						strength = 20,
+						toTime = -1,
+						transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 3.5, 1, },
+						type = "CYLINDRICAL",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+				},
 			},
 			maintenance = { 
 				lifespan = 36525,
