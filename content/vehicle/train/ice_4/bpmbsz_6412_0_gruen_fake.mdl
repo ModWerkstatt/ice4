@@ -494,7 +494,7 @@ return {
 						},
 					},
 				},
-				engineTags = { "ELECTRIC_TRAIN", },
+				engineTransportModes = { "ELECTRIC_TRAIN", },
 				loadSpeed = 2,
 				filterTags = { },
 				reversible = true,

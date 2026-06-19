@@ -63,9 +63,9 @@ return {
 		},
 		transportVehicle = {
 			carrier = "RAIL",
-			engineTransportModes = { "TRAIN", "ELECTRIC_TRAIN", },
-			transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
-			filterTags = { "default" },
+			engineTransportModes = { },
+			transportModes = { },
+			filterTags = { },
 		},
         seatProvider = {
             crewModels = { },
