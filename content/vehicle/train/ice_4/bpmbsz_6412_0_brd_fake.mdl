@@ -463,7 +463,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "/ICE_412_wagen",
+					name = "sound/ice_412_wagen.snd",
 				},
 			},
 			transformatorConfig = { 

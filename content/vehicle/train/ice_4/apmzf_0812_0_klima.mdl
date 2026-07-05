@@ -1722,7 +1722,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "/ICE_412",
+					name = "sound/ice_412_antrieb.snd",
 				},
 			},
 			transformatorConfig = { 
