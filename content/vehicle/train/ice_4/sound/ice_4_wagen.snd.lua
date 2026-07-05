@@ -5,7 +5,7 @@ function data()
 local data = soundsetutil.makeSoundSet()
 
 soundsetutil.addTrackParam01
-(data, "ice407/idle.wav", 25.0,
+(data, "ice412/idle.wav", 25.0,
 		{
 			{ 0.00 , 1.0 },
 			{ 0.10, 0.5 },
@@ -18,7 +18,7 @@ soundsetutil.addTrackParam01
 		{"vehicle","speed01"})
 
 soundsetutil.addTrackParam01
-(data, "ice407/wind.wav", 25.0,
+(data, "ice412/wind.wav", 25.0,
 		{
 			{ 0.0, 0.0 },
 			{ 0.5, 0.2 },
