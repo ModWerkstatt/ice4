@@ -40,7 +40,7 @@ soundsetutil.addTrackParam01
 		{"vehicle","speed01"})
 
 soundsetutil.addTrackSqueal(data, "br412/kurve.wav", 25.0)
-soundsetutil.addTrackBrake(data, "br412/bremse.wav", 25.0, 1.0)
+soundsetutil.addTrackBrake(data, "br412/bremsen.wav", 25.0, 1.0)
 
 
 soundsetutil.addEvent(data, "openDoors", { "br412/opendoor.wav" }, 5.0)
