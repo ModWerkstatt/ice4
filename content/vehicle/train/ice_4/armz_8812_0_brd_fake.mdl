@@ -277,12 +277,12 @@ return {
 				},
 			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 2.3,
 				engines = { },
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 73.611114501953125,
 				weightEmpty = 53500,
-				weightMaxPayload = 0,
+				weightMaxPayload =6500,
 			},
 			maintenance = { 
 				lifespan = 36525,
