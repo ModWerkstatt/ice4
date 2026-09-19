@@ -1,11 +1,14 @@
 {
 	"en": {
 
-		"Fake": "Activate fake versions?",
-		"option_fake_ice4_desc": "You can choose if fake versions of the ICE 4 should be hidden (default) or shown in depot.",
-
-		"265 km/h": " [265 km/h]",
 		"menu_ice_4": "ICE 4",
+		
+        "fake_ice_4": "Activate fake engines?",
+        "tooltip_fake": "Should the fake trains (Pantos at the bottom, no lights, no driver) be activated?",
+
+		"fake": "Fake - ",
+		
+		"265 km/h": " [265 km/h]",
 		"ICE4_7tlg_name": "ICE 4 - 7 parts (Class 412)",
 		"ICE4_12tlg_name": "ICE 4 - 12 parts (Class 412)",
 		"ICE4_12tlg_gruen_name": "ICE 4 - 12 parts (Class 412) Eco Power",
@@ -46,11 +49,14 @@
 	},
 	"de": {
 		
-		"Fake": "Fake-Versionen aktivieren?",
-		"option_fake_ice4_desc": "Schaltet die Fake-Versionen des ICE 4 ab (Standard) oder an.",
+		"menu_ice_4": "ICE 4",
+		
+        "fake_ice_4": "Fake-Versionen aktivieren?",
+        "tooltip_fake": "Sollen die Fake-Triebzüge (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
+
+		"fake": "Fake - ",
 
 		"265 km/h": " [265 km/h]",
-		"menu_ice_4": "ICE 4",
 		"ICE4_7tlg_name": "ICE 4 - 7-tlg. (BR 412)",
 		"ICE4_7tlg_mns_name": "ICE 4 - 7-tlg. (BR 412) Mund-Nase-Schutz",
 		"ICE4_12tlg_name": "ICE 4 - 12-tlg. (BR 412)",
