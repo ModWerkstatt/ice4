@@ -616,6 +616,7 @@ return {
 				},
 				engineTransportModes = { "TRAIN", "ELECTRIC_TRAIN", },
 				loadSpeed = 0,
+				comfortFactor = -1,
 				filterTags = { },
 				reversible = true,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
